@@ -14,8 +14,8 @@ if day == -1:
 os.makedirs(newpath)
 
 for i in range(1, 3):
-    f = open(newpath + f"\part{i}.py", 'w')
+    f = open(newpath + f"\\part{i}.py", 'w')
     f.close()
 
-f = open(newpath + "\input.txt", 'w')
+f = open(newpath + "\\input.txt", 'w')
 f.close()
