@@ -1,12 +1,4 @@
 with open('input.txt', 'r') as file:
-
-
-    import sys
-
-    # Set a new, higher recursion limit (e.g., 2000)
-    new_limit = 2600
-    sys.setrecursionlimit(new_limit)
-
     lines = file.read().split('\n')
     readingRegions = False
     boxes = []
